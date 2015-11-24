@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBE546981C04EF2E00CB6FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546971C04EF2E00CB6FFD /* AppDelegate.swift */; };
+		CBE5469A1C04EF2E00CB6FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546991C04EF2E00CB6FFD /* ViewController.swift */; };
+		CBE5469D1C04EF2E00CB6FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE5469B1C04EF2E00CB6FFD /* Main.storyboard */; };
+		CBE5469F1C04EF2E00CB6FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE5469E1C04EF2E00CB6FFD /* Assets.xcassets */; };
+		CBE546A21C04EF2E00CB6FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE546A01C04EF2E00CB6FFD /* LaunchScreen.storyboard */; };
+		CBE546AD1C04EF2E00CB6FFD /* Golden_RetweeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546AC1C04EF2E00CB6FFD /* Golden_RetweeterTests.swift */; };
+		CBE546B81C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546B71C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBE546A91C04EF2E00CB6FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE5468C1C04EF2E00CB6FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE546931C04EF2E00CB6FFD;
+			remoteInfo = "Golden Retweeter";
+		};
+		CBE546B41C04EF2E00CB6FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBE5468C1C04EF2E00CB6FFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE546931C04EF2E00CB6FFD;
+			remoteInfo = "Golden Retweeter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBE546941C04EF2E00CB6FFD /* Golden Retweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golden Retweeter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE546971C04EF2E00CB6FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBE546991C04EF2E00CB6FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBE5469C1C04EF2E00CB6FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE5469E1C04EF2E00CB6FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE546A11C04EF2E00CB6FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBE546A31C04EF2E00CB6FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE546A81C04EF2E00CB6FFD /* Golden RetweeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden RetweeterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE546AC1C04EF2E00CB6FFD /* Golden_RetweeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_RetweeterTests.swift; sourceTree = "<group>"; };
+		CBE546AE1C04EF2E00CB6FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE546B31C04EF2E00CB6FFD /* Golden RetweeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden RetweeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE546B71C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_RetweeterUITests.swift; sourceTree = "<group>"; };
+		CBE546B91C04EF2E00CB6FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBE546911C04EF2E00CB6FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE546A51C04EF2E00CB6FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE546B01C04EF2E00CB6FFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBE5468B1C04EF2E00CB6FFD = {
+			isa = PBXGroup;
+			children = (
+				CBE546961C04EF2E00CB6FFD /* Golden Retweeter */,
+				CBE546AB1C04EF2E00CB6FFD /* Golden RetweeterTests */,
+				CBE546B61C04EF2E00CB6FFD /* Golden RetweeterUITests */,
+				CBE546951C04EF2E00CB6FFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE546951C04EF2E00CB6FFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBE546941C04EF2E00CB6FFD /* Golden Retweeter.app */,
+				CBE546A81C04EF2E00CB6FFD /* Golden RetweeterTests.xctest */,
+				CBE546B31C04EF2E00CB6FFD /* Golden RetweeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBE546961C04EF2E00CB6FFD /* Golden Retweeter */ = {
+			isa = PBXGroup;
+			children = (
+				CBE546971C04EF2E00CB6FFD /* AppDelegate.swift */,
+				CBE546991C04EF2E00CB6FFD /* ViewController.swift */,
+				CBE5469B1C04EF2E00CB6FFD /* Main.storyboard */,
+				CBE5469E1C04EF2E00CB6FFD /* Assets.xcassets */,
+				CBE546A01C04EF2E00CB6FFD /* LaunchScreen.storyboard */,
+				CBE546A31C04EF2E00CB6FFD /* Info.plist */,
+			);
+			path = "Golden Retweeter";
+			sourceTree = "<group>";
+		};
+		CBE546AB1C04EF2E00CB6FFD /* Golden RetweeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE546AC1C04EF2E00CB6FFD /* Golden_RetweeterTests.swift */,
+				CBE546AE1C04EF2E00CB6FFD /* Info.plist */,
+			);
+			path = "Golden RetweeterTests";
+			sourceTree = "<group>";
+		};
+		CBE546B61C04EF2E00CB6FFD /* Golden RetweeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBE546B71C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift */,
+				CBE546B91C04EF2E00CB6FFD /* Info.plist */,
+			);
+			path = "Golden RetweeterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBE546931C04EF2E00CB6FFD /* Golden Retweeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE546BC1C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden Retweeter" */;
+			buildPhases = (
+				CBE546901C04EF2E00CB6FFD /* Sources */,
+				CBE546911C04EF2E00CB6FFD /* Frameworks */,
+				CBE546921C04EF2E00CB6FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golden Retweeter";
+			productName = "Golden Retweeter";
+			productReference = CBE546941C04EF2E00CB6FFD /* Golden Retweeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBE546A71C04EF2E00CB6FFD /* Golden RetweeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE546BF1C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden RetweeterTests" */;
+			buildPhases = (
+				CBE546A41C04EF2E00CB6FFD /* Sources */,
+				CBE546A51C04EF2E00CB6FFD /* Frameworks */,
+				CBE546A61C04EF2E00CB6FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE546AA1C04EF2E00CB6FFD /* PBXTargetDependency */,
+			);
+			name = "Golden RetweeterTests";
+			productName = "Golden RetweeterTests";
+			productReference = CBE546A81C04EF2E00CB6FFD /* Golden RetweeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBE546B21C04EF2E00CB6FFD /* Golden RetweeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBE546C21C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden RetweeterUITests" */;
+			buildPhases = (
+				CBE546AF1C04EF2E00CB6FFD /* Sources */,
+				CBE546B01C04EF2E00CB6FFD /* Frameworks */,
+				CBE546B11C04EF2E00CB6FFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBE546B51C04EF2E00CB6FFD /* PBXTargetDependency */,
+			);
+			name = "Golden RetweeterUITests";
+			productName = "Golden RetweeterUITests";
+			productReference = CBE546B31C04EF2E00CB6FFD /* Golden RetweeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBE5468C1C04EF2E00CB6FFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Karl Persson";
+				TargetAttributes = {
+					CBE546931C04EF2E00CB6FFD = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CBE546A71C04EF2E00CB6FFD = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CBE546931C04EF2E00CB6FFD;
+					};
+					CBE546B21C04EF2E00CB6FFD = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CBE546931C04EF2E00CB6FFD;
+					};
+				};
+			};
+			buildConfigurationList = CBE5468F1C04EF2E00CB6FFD /* Build configuration list for PBXProject "Golden Retweeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBE5468B1C04EF2E00CB6FFD;
+			productRefGroup = CBE546951C04EF2E00CB6FFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBE546931C04EF2E00CB6FFD /* Golden Retweeter */,
+				CBE546A71C04EF2E00CB6FFD /* Golden RetweeterTests */,
+				CBE546B21C04EF2E00CB6FFD /* Golden RetweeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBE546921C04EF2E00CB6FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE546A21C04EF2E00CB6FFD /* LaunchScreen.storyboard in Resources */,
+				CBE5469F1C04EF2E00CB6FFD /* Assets.xcassets in Resources */,
+				CBE5469D1C04EF2E00CB6FFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE546A61C04EF2E00CB6FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE546B11C04EF2E00CB6FFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBE546901C04EF2E00CB6FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE5469A1C04EF2E00CB6FFD /* ViewController.swift in Sources */,
+				CBE546981C04EF2E00CB6FFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE546A41C04EF2E00CB6FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE546AD1C04EF2E00CB6FFD /* Golden_RetweeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBE546AF1C04EF2E00CB6FFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE546B81C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBE546AA1C04EF2E00CB6FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE546931C04EF2E00CB6FFD /* Golden Retweeter */;
+			targetProxy = CBE546A91C04EF2E00CB6FFD /* PBXContainerItemProxy */;
+		};
+		CBE546B51C04EF2E00CB6FFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBE546931C04EF2E00CB6FFD /* Golden Retweeter */;
+			targetProxy = CBE546B41C04EF2E00CB6FFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBE5469B1C04EF2E00CB6FFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE5469C1C04EF2E00CB6FFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBE546A01C04EF2E00CB6FFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBE546A11C04EF2E00CB6FFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBE546BA1C04EF2E00CB6FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBE546BB1C04EF2E00CB6FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBE546BD1C04EF2E00CB6FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Golden Retweeter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-Retweeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBE546BE1C04EF2E00CB6FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Golden Retweeter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-Retweeter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBE546C01C04EF2E00CB6FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Golden RetweeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-RetweeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden Retweeter.app/Golden Retweeter";
+			};
+			name = Debug;
+		};
+		CBE546C11C04EF2E00CB6FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Golden RetweeterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-RetweeterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden Retweeter.app/Golden Retweeter";
+			};
+			name = Release;
+		};
+		CBE546C31C04EF2E00CB6FFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Golden RetweeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-RetweeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Golden Retweeter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CBE546C41C04EF2E00CB6FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Golden RetweeterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-RetweeterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Golden Retweeter";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBE5468F1C04EF2E00CB6FFD /* Build configuration list for PBXProject "Golden Retweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE546BA1C04EF2E00CB6FFD /* Debug */,
+				CBE546BB1C04EF2E00CB6FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBE546BC1C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden Retweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE546BD1C04EF2E00CB6FFD /* Debug */,
+				CBE546BE1C04EF2E00CB6FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBE546BF1C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden RetweeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE546C01C04EF2E00CB6FFD /* Debug */,
+				CBE546C11C04EF2E00CB6FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBE546C21C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden RetweeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBE546C31C04EF2E00CB6FFD /* Debug */,
+				CBE546C41C04EF2E00CB6FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBE5468C1C04EF2E00CB6FFD /* Project object */;
+}
