@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB2D8AC81C0A44AB002AE2B7 /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8AC71C0A44AB002AE2B7 /* SwipeView.swift */; };
+		CB2D8ACC1C0A581D002AE2B7 /* ComposeTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8ACB1C0A581D002AE2B7 /* ComposeTweetViewController.swift */; };
+		CB2D8AD01C0C5AF7002AE2B7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8ACF1C0C5AF7002AE2B7 /* User.swift */; };
+		CB2D8AD21C0C7366002AE2B7 /* OAuthObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8AD11C0C7366002AE2B7 /* OAuthObject.swift */; };
+		CB2D8AD41C0CCD8F002AE2B7 /* TwitterJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8AD31C0CCD8F002AE2B7 /* TwitterJSON.swift */; };
+		CB2D8AD61C0D0B5D002AE2B7 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2D8AD51C0D0B5D002AE2B7 /* Resources.swift */; };
 		CBE546981C04EF2E00CB6FFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546971C04EF2E00CB6FFD /* AppDelegate.swift */; };
-		CBE5469A1C04EF2E00CB6FFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546991C04EF2E00CB6FFD /* ViewController.swift */; };
 		CBE5469D1C04EF2E00CB6FFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE5469B1C04EF2E00CB6FFD /* Main.storyboard */; };
 		CBE5469F1C04EF2E00CB6FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE5469E1C04EF2E00CB6FFD /* Assets.xcassets */; };
 		CBE546A21C04EF2E00CB6FFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE546A01C04EF2E00CB6FFD /* LaunchScreen.storyboard */; };
 		CBE546AD1C04EF2E00CB6FFD /* Golden_RetweeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546AC1C04EF2E00CB6FFD /* Golden_RetweeterTests.swift */; };
 		CBE546B81C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546B71C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift */; };
+		CBE546C61C05EC1A00CB6FFD /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546C51C05EC1A00CB6FFD /* Twitter.swift */; };
+		CBE546C81C05F35900CB6FFD /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE546C71C05F35900CB6FFD /* Tweet.swift */; };
+		CBF99DE91C065B86004E8ABF /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF99DE81C065B86004E8ABF /* HMAC.swift */; };
+		CBF99DEB1C079CAF004E8ABF /* RF3986.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF99DEA1C079CAF004E8ABF /* RF3986.swift */; };
+		CBF99DEF1C086C15004E8ABF /* FeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF99DEE1C086C15004E8ABF /* FeedCollectionViewController.swift */; };
+		CBF99DF11C086DE7004E8ABF /* TweetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF99DF01C086DE7004E8ABF /* TweetCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB2D8AC71C0A44AB002AE2B7 /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		CB2D8ACB1C0A581D002AE2B7 /* ComposeTweetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeTweetViewController.swift; sourceTree = "<group>"; };
+		CB2D8ACF1C0C5AF7002AE2B7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB2D8AD11C0C7366002AE2B7 /* OAuthObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthObject.swift; sourceTree = "<group>"; };
+		CB2D8AD31C0CCD8F002AE2B7 /* TwitterJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterJSON.swift; sourceTree = "<group>"; };
+		CB2D8AD51C0D0B5D002AE2B7 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		CBE546941C04EF2E00CB6FFD /* Golden Retweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golden Retweeter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE546971C04EF2E00CB6FFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBE546991C04EF2E00CB6FFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBE5469C1C04EF2E00CB6FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBE5469E1C04EF2E00CB6FFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBE546A11C04EF2E00CB6FFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,13 @@
 		CBE546B31C04EF2E00CB6FFD /* Golden RetweeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden RetweeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE546B71C04EF2E00CB6FFD /* Golden_RetweeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_RetweeterUITests.swift; sourceTree = "<group>"; };
 		CBE546B91C04EF2E00CB6FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE546C51C05EC1A00CB6FFD /* Twitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
+		CBE546C71C05F35900CB6FFD /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		CBF99DE51C065835004E8ABF /* Golden Retweeter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Golden Retweeter-Bridging-Header.h"; sourceTree = "<group>"; };
+		CBF99DE81C065B86004E8ABF /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		CBF99DEA1C079CAF004E8ABF /* RF3986.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RF3986.swift; sourceTree = "<group>"; };
+		CBF99DEE1C086C15004E8ABF /* FeedCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewController.swift; sourceTree = "<group>"; };
+		CBF99DF01C086DE7004E8ABF /* TweetCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +97,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB2D8AC91C0A4669002AE2B7 /* Twitter feed */ = {
+			isa = PBXGroup;
+			children = (
+				CBF99DEE1C086C15004E8ABF /* FeedCollectionViewController.swift */,
+				CBF99DF01C086DE7004E8ABF /* TweetCollectionViewCell.swift */,
+				CB2D8AC71C0A44AB002AE2B7 /* SwipeView.swift */,
+			);
+			path = "Twitter feed";
+			sourceTree = "<group>";
+		};
+		CB2D8ACA1C0A469E002AE2B7 /* Twitter connection */ = {
+			isa = PBXGroup;
+			children = (
+				CBE546C51C05EC1A00CB6FFD /* Twitter.swift */,
+				CB2D8AD31C0CCD8F002AE2B7 /* TwitterJSON.swift */,
+				CB2D8AD11C0C7366002AE2B7 /* OAuthObject.swift */,
+				CBF99DEA1C079CAF004E8ABF /* RF3986.swift */,
+				CBF99DE81C065B86004E8ABF /* HMAC.swift */,
+			);
+			path = "Twitter connection";
+			sourceTree = "<group>";
+		};
+		CB2D8AD71C0D9CB1002AE2B7 /* Twitter objects */ = {
+			isa = PBXGroup;
+			children = (
+				CBE546C71C05F35900CB6FFD /* Tweet.swift */,
+				CB2D8ACF1C0C5AF7002AE2B7 /* User.swift */,
+			);
+			path = "Twitter objects";
+			sourceTree = "<group>";
+		};
+		CB2D8AD81C0D9CDA002AE2B7 /* Compose tweet */ = {
+			isa = PBXGroup;
+			children = (
+				CB2D8ACB1C0A581D002AE2B7 /* ComposeTweetViewController.swift */,
+			);
+			path = "Compose tweet";
+			sourceTree = "<group>";
+		};
 		CBE5468B1C04EF2E00CB6FFD = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +160,16 @@
 			isa = PBXGroup;
 			children = (
 				CBE546971C04EF2E00CB6FFD /* AppDelegate.swift */,
-				CBE546991C04EF2E00CB6FFD /* ViewController.swift */,
+				CB2D8AD51C0D0B5D002AE2B7 /* Resources.swift */,
 				CBE5469B1C04EF2E00CB6FFD /* Main.storyboard */,
+				CB2D8AD71C0D9CB1002AE2B7 /* Twitter objects */,
+				CB2D8ACA1C0A469E002AE2B7 /* Twitter connection */,
+				CB2D8AC91C0A4669002AE2B7 /* Twitter feed */,
+				CB2D8AD81C0D9CDA002AE2B7 /* Compose tweet */,
 				CBE5469E1C04EF2E00CB6FFD /* Assets.xcassets */,
 				CBE546A01C04EF2E00CB6FFD /* LaunchScreen.storyboard */,
 				CBE546A31C04EF2E00CB6FFD /* Info.plist */,
+				CBF99DE51C065835004E8ABF /* Golden Retweeter-Bridging-Header.h */,
 			);
 			path = "Golden Retweeter";
 			sourceTree = "<group>";
@@ -193,6 +260,7 @@
 				TargetAttributes = {
 					CBE546931C04EF2E00CB6FFD = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CQ65C773QY;
 					};
 					CBE546A71C04EF2E00CB6FFD = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -256,8 +324,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE5469A1C04EF2E00CB6FFD /* ViewController.swift in Sources */,
+				CB2D8ACC1C0A581D002AE2B7 /* ComposeTweetViewController.swift in Sources */,
+				CB2D8AD41C0CCD8F002AE2B7 /* TwitterJSON.swift in Sources */,
+				CBF99DF11C086DE7004E8ABF /* TweetCollectionViewCell.swift in Sources */,
+				CBE546C61C05EC1A00CB6FFD /* Twitter.swift in Sources */,
+				CBF99DE91C065B86004E8ABF /* HMAC.swift in Sources */,
 				CBE546981C04EF2E00CB6FFD /* AppDelegate.swift in Sources */,
+				CBF99DEF1C086C15004E8ABF /* FeedCollectionViewController.swift in Sources */,
+				CBE546C81C05F35900CB6FFD /* Tweet.swift in Sources */,
+				CB2D8AC81C0A44AB002AE2B7 /* SwipeView.swift in Sources */,
+				CB2D8AD01C0C5AF7002AE2B7 /* User.swift in Sources */,
+				CBF99DEB1C079CAF004E8ABF /* RF3986.swift in Sources */,
+				CB2D8AD21C0C7366002AE2B7 /* OAuthObject.swift in Sources */,
+				CB2D8AD61C0D0B5D002AE2B7 /* Resources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +476,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Golden Retweeter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-Retweeter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Golden Retweeter/Golden Retweeter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +493,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Golden Retweeter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "karlpersson.Golden-Retweeter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Golden Retweeter/Golden Retweeter-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +572,7 @@
 				CBE546BE1C04EF2E00CB6FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE546BF1C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden RetweeterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +581,7 @@
 				CBE546C11C04EF2E00CB6FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE546C21C04EF2E00CB6FFD /* Build configuration list for PBXNativeTarget "Golden RetweeterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +590,7 @@
 				CBE546C41C04EF2E00CB6FFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
