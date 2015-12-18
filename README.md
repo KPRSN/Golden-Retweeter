@@ -6,6 +6,8 @@ Tiny and swipeable Twitter application
 * Swipe left to retweet
 * Pull to refresh
 
+![alt text](Screenshots/goldenretweeter.png "Retweet and reply as swipe actions")
+
 ## Current limitations
 * Single user authentication
 * Static size tweet cells
